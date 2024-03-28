@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="6" name="watches" parallel="true">
+    <classes>
+      <class name="testScript.ToRunCasio"/>
+      <class name="testScript.ToRunRolex"/>
+      <class name="testScript.ToRunTitan"/>
+      <class name="testScript.ToRunGarmin"/>
+      <class name="testScript.ToRunTagHeuer"/>
+      <class name="testScript.ToRunTissot"/>
+    </classes>  
+  </test> <!-- Test -->
+  
+  <test thread-count="6" name="cars" parallel="true">
+	  <classes>
+		  <class name="testScript.ToRunRollsRoyce"/>
+		  <class name="testScript.ToRunBugatti"/>
+      <class name="testScript.ToRunLamborghini"/>
+      <class name="testScript.ToRunAstonMartin"/>
+      <class name="testScript.ToRunBenz"/>
+       <class name="testScript.ToRunMaserati"/>
+	  </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->
